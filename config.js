@@ -12,8 +12,8 @@ LANG: process.env.LANG === undefined ? 'SI' : process.env.LANG,
 ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://i.imgur.com/v8iuP8v.jpg' : process.env.ALIVE_LOGO,
 FOOTER: process.env.FOOTER === undefined ? 'ᴀꜱᴛʀᴏ-ᴍᴅ ᴘᴜʙʟɪᴄ ꜱᴛᴀʙʟᴇ' : process.env.FOOTER,
 CAPTION: process.env.CAPTION === undefined ? '*ɢᴇɴᴀʀᴀᴛᴇᴅ ʙʏ ᴀꜱᴛʀᴏ-ᴍᴅ*' : process.env.CAPTION,
-ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'true : process.env.ONLY_GROUP,
-INBOX_BL_MSG: process.env.INBOX_BL_MSG === undefined ? '**අලේ කොමද ඉතින්**' : process.env.INBOX_BL_MSG,
+ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'true': process.env.ONLY_GROUP,
+INBOX_BL_MSG: process.env.INBOX_BL_MSG === undefined ? '*අලේ කොමද ඉතින්*' : process.env.INBOX_BL_MSG,
 HOST: process.env.HOST === undefined ? 'REPLIT' : process.env.HOST,
 SESSION_ID: process.env.SESSION_ID === undefined ? 'ASTRO=tn4WVYba#E_1Nz3MmuWkiB57ef_j7dUJMqSFFrSDHBDHuDzSLPRQ' : process.env.SESSION_ID
 };
